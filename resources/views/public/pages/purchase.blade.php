@@ -7,8 +7,8 @@
         <p class="bold center font w3-large">If you have any questions or concerns whats us following the link bellow
             {{-- <a href="#"><strong>emilianomaltipoo@gmail.com</strong></a> --}}
         </p>
-        <div class="col-10 offset-md-1">
-            <p class="justify">Deposits are permitted and also
+        <div class="col-md-10 offset-md-1">
+            <p>Deposits are permitted and also
                 are refundable (Not more than 1
                 week of reservation). If for
                 some reason you cannot get the

@@ -76,6 +76,7 @@
                     <!-- Help Line -->
                     <div class="help-line">
                         <a href="tel:+17179370305"><i class="ti-headphone-alt"></i> +17179370305</a>
+                        {{-- <a href="mailto:wlmd73946@gmail.com"><i class="fa fa-envelope"></i> wlmd73946@gmail.com </a> --}}
                     </div>
                 </div>
             </div>
