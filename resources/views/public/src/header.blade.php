@@ -9,7 +9,7 @@
                     <div class="top_single_area d-flex align-items-center">
                         <!-- Logo Area -->
                         <div class="top_logo">
-                            <a href="#"><img src="{{ URL::asset('img/p.png') }}" alt="" width="150" height="150"></a>
+                            <a href="#"><img src="{{ URL::asset('img/pp.jpg') }}" alt="" width="150" height="150"></a>
                         </div>
 
                         <!-- Cart & Menu Area -->
@@ -22,9 +22,15 @@
                                     <a href="{{ route('loginPage') }}" id="header-cart-btn"><i class="fa fa-lock w3-hover-text-red w3-medium"></i> Sign in</a>
                                 @endif
                             </div>
-                            <div class="header-right-side-menu ml-15">
-                                <a href="#" id="sideMenuBtn"><i class="ti-menu" aria-hidden="true"></i></a>
-                            </div>
+                            @if(Auth::check())
+                            <a href="#" id="sideMenuBtn">
+                                <img src="{{ URL::asset(auth()->user()->profile) }}" alt="" class="circles-m">
+                            </a>
+                                @else
+                                <div class="header-right-side-menu ml-15">
+                                    <a href="#" id="sideMenuBtn"><i class="ti-menu" aria-hidden="true"></i></a>
+                                </div> 
+                            @endif
                         </div>
                     </div>
                 </div>

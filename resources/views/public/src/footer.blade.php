@@ -6,7 +6,7 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="single_footer_area">
                     <div class="footer-logo">
-                        <a href="#"><img src="{{ URL::asset('img/p.png') }}" alt="" width="150" height="150"></a>
+                        <a href="#"><img src="{{ URL::asset('img/pp.jpg') }}" alt="" width="100" height="100"></a>
                     </div>
                     <div class="copywrite_text d-flex align-items-center">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
